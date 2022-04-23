@@ -329,51 +329,6 @@ section .title::after{
   .jbiet{
     width: 150px;
   }
-  .course, .teams{
-    color:#fff;
-    background: #111;
-}
-.course.title::before,
-.teams.title::before{
-    background: rgb(11, 11, 11);
-}
-.course .title::after,
- .title::after{
-    background: rgb(0, 0, 0);
-    content: "what i studied";
-}
-.course .serv-content .card{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.course.serv-content .card:hover{
-    background: crimson;
-}
-.course .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-.course .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-.course .serv-content .card i{
-    font-size: 50px;
-    color: crimson;
-    transition: color 0.3s ease;
-}
-.course .serv-content .card:hover i{
-    color: #fff;
-}
-.course .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-
 
 .para{
     font-size: 15px;
@@ -382,6 +337,10 @@ section .title::after{
     align-items: center;
     font-weight: 500;
    font-family:  'Ubuntu', sans-serif;;
+   background-color: #ff0000;
+   border: 3px #111;
+   border-radius: 5px;
+   padding: 20px;
 }
 .ai{
     font-size: 30px;
