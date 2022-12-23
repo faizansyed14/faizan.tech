@@ -668,12 +668,14 @@ footer{
         .Resume{
            padding: 0%;
            padding-left: 150px;
+           padding-top: 10px;
            align-items: center;
            display: flex;
         }
         .download{
             padding: 0%;
             padding-left: 130px;
+            padding-top: 50px;
             align-items: center;
             display: flex;
         }
